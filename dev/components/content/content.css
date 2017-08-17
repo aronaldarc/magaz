@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+section.market {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #959dfc;
+}
+section.market h1 {
+    text-align: center;
+}
+section.market h2 {
+    text-align: center;
+    font-size: 70%;
+}
+section.market div.category {
+    box-sizing: border-box;
+    background-color: #c3f28c;
+    padding: 10px;
+}
+section.market div.category-img {
+    display: inline-block;
+    padding: 20px;
+}
+section.market div.category-img:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+}
+section.market div.category-img div.produkt {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #d0ffcc;
+    margin-top: 40px;
+    display: none;
+}
+section.market div.category-img div.produkt div.image {
+    display: block;
+    padding: 15px;
+    
+}
+section.market div.category-img:focus div.produkt {
+    display: inline-block;
+    position: static;
+}
+section.market div.category-img:focus div.produkt:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+@media only screen and (max-width: 800px) {
+    section.market div.category-img:focus div.produkt {
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    box-shadow: 0 0 10px rgba(60,50,46,0.5);
+}
